@@ -11,32 +11,24 @@ body {
     background-color: transparent;
 }
 
-.contain-head {
-    margin-top: 5rem;
-    margin-left: auto;
-    margin-right: auto;
+h1 {
+    font-family: 'Syncopate', sans-serif;
+    text-align: center;
 }
 
-#guessesTracker li {
-    list-style: none;
-    list-style-type: none;
-    font-size: 3vw;
-}
 
 .row-input {
     text-align: center;
 }
 
 .card {
-    border-radius: 4%;
-}
-
-.card-header {
-    text-align: center;
+    border-radius: 3%;
+    margin: 15%;
+    height: 50rem;
 }
 
 #prompt {
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 .row {
@@ -49,7 +41,7 @@ body {
 
 .row-output {
     text-align: center;
-    height: 24vw;
+    height: 24rem;
     max-width: 90%;
 }
 
@@ -61,20 +53,27 @@ body {
 input {
     margin-top: .5rem;
     width: 90%;
-    border-color: #CD3B28;
     border-width: .3rem;
-    font-size: 4vw;
+    font-size: 3vw;
     text-align: center;
+    border-radius: 2%;
+    border: 1px solid #CD3B28;
+    box-shadow: none;
+}
+
+.input:hover {
+    box-shadow: 3px 3px 3px 3px grey;
 }
 
 button {
     width: 90%;
     margin-top: .5rem;   
-    font-size: 4vw;
+    font-size: 3vw;
     background-color: #CD3B28;
     border-width: .3rem;
     border-color: #CD3B28;
     color: white;
     font-weight: 900;
     letter-spacing: .4rem;
+    border-radius: 2%;
 }

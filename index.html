@@ -6,23 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles/styles.css" />
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Outline|Roboto+Mono|Syncopate:700&display=swap" rel="stylesheet">
+
+    <title>Number Guesser</title>
 </head>
 <body>
-    <div class="container contain-head">
+    <div class="container">
         <div class="card">
-            <h1 class="card-header">Guess a number from 1-100</h1>
+            <h1 class="card-header">Guess in FIVE<br>Win a PRIZE</h1>
             <div class="row row-input">
-                <div class="col-md-6">
-                    <input id="guess"/>
-                </div>
-                <div class="col-md-6">
-                    <button onclick="onGuessNumber()">GUESS</button>
-                </div>
+                <input id="guess"/>
             </div>
+            <div class="row row-input">
+                <button onclick="onGuessNumber()">GUESS</button>
+            </div>
+            
             <div class="row row-output">
                 <ul class="list-group list-group-flush">
-                <li class="list-group-item" id="guessesTracker"></li>
+                <li class="list-group-item" id="guessesTracker"><span><br></li>
                 </ul>
             </div>
             <div class="row">
